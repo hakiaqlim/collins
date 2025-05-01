@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+.main-scroll::-webkit-scrollbar{
+   width: 0;
+}
+.bg-gray{
+    background: gray;
+}
+@media (max-width:1173px) {
+   
+  .main-nav  .nav-img img{
+   width: 180px;
+    }
+    .nav-search{
+      padding: 2px 3px !important;
+    }
+    .nav-option{
+      padding: 2px 3px !important;
+    }
+    .nav-ul{
+      gap: 30px !important;
+      font-size: 14px;
+    }
+    .nav-btn{
+      padding:5px 10px !important;
+    }
+}
+@media (max-width:1016px) {
+    .main-nav  .nav-img img{
+        width: 150px;
+         }
+    .nav-ul{
+        font-size:12px ;
+    }
+}
+@media (max-width:996px) {
+    
+    .nav-ul {
+    display: none !important;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .search-section{
+        display: none !important;
+    }
+    .menu{
+        display: block !important;
+    }
+    .header-main{
+        font-size: 9px;
+       justify-content: center;
+    }
+    .card-featur{
+        gap: 20px !important;
+    }
+}
+@media (max-width:513px) {
+    .accountability{
+        font-size: 15px;
+    }
+    .main-scroll{
+        gap: 0px;
+    }
+   .main-scroll h5{
+font-size: 14px;
+   }
+   .card-detail{
+    margin: 0px;
+   }
+   
+
+}
+@media (max-width:430px) {
+    .workplace{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .workplace-card{
+     /* min-width: 260px !important; */
+        margin-bottom:0px ;
+    }
+    .workplace-card h5{
+        font-size: 14px !important;
+    }
+    
+    
+}
