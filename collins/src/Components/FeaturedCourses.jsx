@@ -11,7 +11,7 @@ const FeaturedCourses = () => {
                     <div className="col-lg-6">
                     
                         <div className="card shadow-lg   border-0 rounded-3">
-                            <div className='d-flex '>
+                            <div className='d-flex featured'>
                             <div className="col-lg-5 " style={{objectFit:'cover'}}>
                                 <img width="100%"  src="https://br-collin.vercel.app/img/Course/Course.png" height='100%' alt="" />
                             </div>
@@ -44,7 +44,7 @@ const FeaturedCourses = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="card shadow-lg border-0">
-                            <div className='d-flex '>
+                            <div className='d-flex featured'>
                             <div className="col-lg-5 " style={{objectFit:'cover'}}>
                                 <img width="100%" src="https://br-collin.vercel.app/img/Course/Course2.png" height='100%' alt="" />
                             </div>

@@ -94,6 +94,8 @@ font-size: 14px;
     .workplace-card h5{
         font-size: 14px !important;
     }
-    
+    .featured{
+        flex-direction: column;
+    }
     
 }

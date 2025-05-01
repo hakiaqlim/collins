@@ -7,10 +7,10 @@ const PopularCourses = () => {
   const scrollRef = useRef()
 
   const scrollLeft = () => {
-    scrollRef.current?.scrollBy({ left: 350, behavior: "smooth" })
+    scrollRef.current?.scrollBy({ left: 365, behavior: "smooth" })
   }
   const scrollRight = () => {
-    scrollRef.current?.scrollBy({ left: -350, behavior: "smooth" })
+    scrollRef.current?.scrollBy({ left: -365, behavior: "smooth" })
   }
 
   return (
@@ -29,7 +29,7 @@ const PopularCourses = () => {
         <div className='cursor-pointer '>
           <FaArrowAltCircleLeft size={35} onClick={scrollLeft} />
         </div>
-        <div ref={scrollRef} className="d-flex align-items-center main-scroll overflow-auto flex-nowrap gap-3">
+        <div style={{width:'1100px'}} ref={scrollRef} className="d-flex align-items-center main-scroll overflow-auto flex-nowrap gap-3">
           {array.map((item, index) => (
 
 
